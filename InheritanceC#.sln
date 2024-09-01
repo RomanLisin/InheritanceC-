@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceC#", "InheritanceC#\InheritanceC#.csproj", "{66BB9B65-741D-4400-B642-8D721BC4C027}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy", "Academy\Academy.csproj", "{9159AB0A-A5A0-4833-AB83-94417C784D3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66BB9B65-741D-4400-B642-8D721BC4C027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66BB9B65-741D-4400-B642-8D721BC4C027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66BB9B65-741D-4400-B642-8D721BC4C027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66BB9B65-741D-4400-B642-8D721BC4C027}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9159AB0A-A5A0-4833-AB83-94417C784D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9159AB0A-A5A0-4833-AB83-94417C784D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9159AB0A-A5A0-4833-AB83-94417C784D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9159AB0A-A5A0-4833-AB83-94417C784D3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5622DD5-E139-4A90-BDC2-298CEBCC571F}
+	EndGlobalSection
+EndGlobal
