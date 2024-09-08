@@ -2,8 +2,10 @@
 //#define INHERITANCE_2
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Academy
@@ -57,17 +59,22 @@ namespace Academy
 			Console.WriteLine(t_diaz);
 
 #endif
-			//Generalization:
+
+			  //Generalization:
 			Human[] group = new Human[]
 			{
 				new Student("Pinkman", "Jessie", 25, "Chemistry", "WW_220", 95, 97),
 				new Teacher("White", "Walter", 50, "Chemistry", 25),
 				new Graduate("Vasya", "Ivanov", 28, "Chemistry", "WW_221", 98, 92, "Mathematic")
 			};
-			for (int i=0; i<group.Length; i++)
-			{
-				Console.WriteLine(group[i]);
-            }
+
+			string path = @"C:\Users\rls\source\repos\InheritanceC#\Academy\noteHuman.txt";
+
+			Generalization<Human> generalization = new Generalization<Human>();
+
+			generalization.WriteTxtFile(path, group);
+			generalization.ReadTxtFile(path);
+
 		}
 	}
 }
