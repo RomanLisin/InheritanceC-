@@ -4,3 +4,6 @@ Academy.Graduate: Vasya Ivanov 28: , Chemistry, WW_221, 98, 92 , Mathematic
 Academy.Student: Pinkman Jessie 25: , Chemistry, WW_220, 95, 97
 Academy.Teacher: White Walter 50 , Chemistry,25
 Academy.Graduate: Vasya Ivanov 28: , Chemistry, WW_221, 98, 92 , Mathematic
+Academy.Student: Pinkman Jessie 25: , Chemistry, WW_220, 95, 97
+Academy.Teacher: White Walter 50 , Chemistry,25
+Academy.Graduate: Vasya Ivanov 28: , Chemistry, WW_221, 98, 92 , Mathematic

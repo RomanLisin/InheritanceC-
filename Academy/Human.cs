@@ -39,6 +39,15 @@ namespace Academy
 		{
 			return base.ToString()+$": {LastName} {FirstName} {Age}";
 		}
-
+		public virtual string ToFileString()
+		{
+			return $"{base.ToString().Split('.').Last()},{LastName},{FirstName},{Age}";
+		}
+		public virtual void Init(string[] values)
+		{
+			LastName = values[1];
+			FirstName = values[2];
+			Age = Convert.ToUInt32(values[3]);
+		}
 	}
 }
